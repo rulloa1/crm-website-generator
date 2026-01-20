@@ -1,0 +1,85 @@
+{
+  "company": {
+    "name": "TechVision CRM",
+    "tagline": "Next-Generation Customer Management",
+    "description": "We empower startups and tech companies with AI-powered CRM solutions that scale with your growth.",
+    "contact": {
+      "email": "hello@techvisioncrm.com",
+      "phone": "+1 (555) 987-6543",
+      "address": "456 Innovation Drive, San Francisco, CA 94105"
+    }
+  },
+  "theme": {
+    "primaryColor": "#6366f1",
+    "secondaryColor": "#4f46e5",
+    "accentColor": "#ec4899"
+  },
+  "features": [
+    {
+      "title": "AI-Powered Insights",
+      "description": "Leverage machine learning to predict customer behavior and optimize your sales strategy."
+    },
+    {
+      "title": "Real-Time Sync",
+      "description": "Keep your team aligned with instant synchronization across all devices and platforms."
+    },
+    {
+      "title": "Developer API",
+      "description": "Build custom integrations with our comprehensive REST API and webhooks."
+    },
+    {
+      "title": "Smart Automation",
+      "description": "Automate workflows with intelligent triggers and conditional logic."
+    },
+    {
+      "title": "Team Collaboration",
+      "description": "Work together seamlessly with shared pipelines, notes, and task assignments."
+    },
+    {
+      "title": "Advanced Security",
+      "description": "Enterprise-grade security with SSO, 2FA, and role-based access control."
+    }
+  ],
+  "services": [
+    {
+      "name": "Launch",
+      "description": "Perfect for early-stage startups and small teams.",
+      "features": [
+        "Up to 5 team members",
+        "5,000 contacts",
+        "Basic automation",
+        "Email & chat support",
+        "API access"
+      ],
+      "price": "$49/month"
+    },
+    {
+      "name": "Growth",
+      "description": "Built for scaling companies with growing sales teams.",
+      "features": [
+        "Up to 25 team members",
+        "50,000 contacts",
+        "Advanced automation & AI",
+        "Priority support",
+        "Custom integrations",
+        "Advanced analytics"
+      ],
+      "price": "$199/month"
+    },
+    {
+      "name": "Scale",
+      "description": "Enterprise solution for established tech companies.",
+      "features": [
+        "Unlimited team members",
+        "Unlimited contacts",
+        "AI-powered predictions",
+        "Dedicated account manager",
+        "Custom development",
+        "99.9% SLA guarantee",
+        "Advanced security & compliance"
+      ],
+      "price": "Custom Pricing"
+    }
+  ],
+  "outputDir": "./output"
+}

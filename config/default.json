@@ -1,0 +1,82 @@
+{
+  "company": {
+    "name": "CRM Solutions Inc.",
+    "tagline": "Transform Your Customer Relationships",
+    "description": "We provide cutting-edge CRM solutions that help businesses build stronger customer relationships and drive growth.",
+    "contact": {
+      "email": "info@crmsolutions.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Business Street, Suite 100, New York, NY 10001"
+    }
+  },
+  "theme": {
+    "primaryColor": "#2563eb",
+    "secondaryColor": "#1e40af",
+    "accentColor": "#10b981"
+  },
+  "features": [
+    {
+      "title": "Customer Management",
+      "description": "Keep all your customer information organized in one centralized platform."
+    },
+    {
+      "title": "Sales Pipeline",
+      "description": "Track deals and opportunities through every stage of your sales process."
+    },
+    {
+      "title": "Analytics & Reporting",
+      "description": "Get actionable insights with powerful analytics and customizable reports."
+    },
+    {
+      "title": "Automation",
+      "description": "Automate repetitive tasks and workflows to save time and increase efficiency."
+    },
+    {
+      "title": "Integration",
+      "description": "Seamlessly integrate with your existing tools and platforms."
+    },
+    {
+      "title": "Support",
+      "description": "24/7 customer support to help you succeed every step of the way."
+    }
+  ],
+  "services": [
+    {
+      "name": "Starter Plan",
+      "description": "Perfect for small businesses just getting started with CRM.",
+      "features": [
+        "Up to 1,000 contacts",
+        "Basic reporting",
+        "Email support",
+        "Mobile app access"
+      ],
+      "price": "$29/month"
+    },
+    {
+      "name": "Professional Plan",
+      "description": "Ideal for growing businesses that need advanced features.",
+      "features": [
+        "Up to 10,000 contacts",
+        "Advanced reporting & analytics",
+        "Priority support",
+        "Custom integrations",
+        "Workflow automation"
+      ],
+      "price": "$99/month"
+    },
+    {
+      "name": "Enterprise Plan",
+      "description": "Complete solution for large organizations with complex needs.",
+      "features": [
+        "Unlimited contacts",
+        "Advanced analytics & AI insights",
+        "24/7 dedicated support",
+        "Custom development",
+        "Advanced security features",
+        "API access"
+      ],
+      "price": "Contact Us"
+    }
+  ],
+  "outputDir": "./output"
+}

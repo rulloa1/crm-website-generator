@@ -1,0 +1,85 @@
+{
+  "company": {
+    "name": "Premier Business Consulting",
+    "tagline": "Strategic Solutions for Business Excellence",
+    "description": "With over 20 years of experience, we help businesses optimize their customer relationships and drive sustainable growth.",
+    "contact": {
+      "email": "contact@premierbiz.com",
+      "phone": "+1 (555) 234-5678",
+      "address": "789 Executive Plaza, Chicago, IL 60601"
+    }
+  },
+  "theme": {
+    "primaryColor": "#0f172a",
+    "secondaryColor": "#334155",
+    "accentColor": "#d97706"
+  },
+  "features": [
+    {
+      "title": "Strategic Planning",
+      "description": "Develop comprehensive CRM strategies aligned with your business objectives."
+    },
+    {
+      "title": "Process Optimization",
+      "description": "Streamline your sales and customer service processes for maximum efficiency."
+    },
+    {
+      "title": "Training & Support",
+      "description": "Comprehensive training programs to ensure your team maximizes CRM value."
+    },
+    {
+      "title": "Change Management",
+      "description": "Expert guidance through organizational change and technology adoption."
+    },
+    {
+      "title": "Performance Metrics",
+      "description": "Establish KPIs and dashboards to measure and improve CRM performance."
+    },
+    {
+      "title": "Ongoing Advisory",
+      "description": "Continuous support and strategic advice as your business evolves."
+    }
+  ],
+  "services": [
+    {
+      "name": "CRM Assessment",
+      "description": "Comprehensive evaluation of your current CRM capabilities and opportunities.",
+      "features": [
+        "Current state analysis",
+        "Gap identification",
+        "Roadmap development",
+        "ROI projections",
+        "Detailed report"
+      ],
+      "price": "$5,000"
+    },
+    {
+      "name": "Implementation Support",
+      "description": "End-to-end support for CRM system implementation and rollout.",
+      "features": [
+        "System selection guidance",
+        "Project management",
+        "Data migration",
+        "Custom configuration",
+        "User training",
+        "3 months post-launch support"
+      ],
+      "price": "$25,000"
+    },
+    {
+      "name": "Ongoing Partnership",
+      "description": "Long-term strategic partnership for continuous CRM optimization.",
+      "features": [
+        "Quarterly strategy reviews",
+        "Unlimited consultation",
+        "Process optimization",
+        "Performance monitoring",
+        "Training updates",
+        "Priority support",
+        "Annual roadmap planning"
+      ],
+      "price": "$3,000/month"
+    }
+  ],
+  "outputDir": "./output"
+}

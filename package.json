@@ -1,0 +1,25 @@
+{
+  "name": "crm-website-generator",
+  "version": "1.0.0",
+  "description": "A customizable CRM website generator that creates professional websites for customer relationship management",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "generate": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crm",
+    "website",
+    "generator",
+    "template",
+    "business"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
