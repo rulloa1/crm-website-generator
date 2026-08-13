@@ -89,6 +89,22 @@ The configuration file is a JSON file that defines your website content and styl
 
 See `config/default.json` for a complete example.
 
+### Validation and safe rendering
+
+The generator validates the required company contact fields, theme colors, `features` array, and `services` array before it writes any files. Text supplied through JSON configuration is HTML-escaped before rendering, so configuration content is displayed as text rather than being interpreted as page markup.
+
+The generated contact page is a static presentation page. It does **not** send, store, or process submissions by itself. Connect a reviewed form provider or server-side endpoint before presenting it as a live lead-capture workflow.
+
+### Test the generator
+
+Run the dependency-free regression suite after changing templates or generation logic:
+
+```bash
+npm test
+```
+
+The test verifies generated files, required-configuration validation, and escaping of configuration-driven markup.
+
 ## Project Structure
 
 ```
@@ -103,7 +119,10 @@ crm-website-generator/
 │       ├── about.js          # About page template
 │       ├── services.js       # Services page template
 │       ├── contact.js        # Contact page template
-│       └── styles.js         # CSS styles template
+│       ├── styles.js         # CSS styles template
+│       └── escape.js         # Shared HTML-escaping utility
+├── test/
+│   └── generator.test.js     # Dependency-free regression checks
 ├── output/                   # Generated website files (git-ignored)
 ├── package.json
 └── README.md
